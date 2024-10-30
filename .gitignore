@@ -1,0 +1,52 @@
+# Ignorer les répertoires principaux de WordPress (ceux qui ne contiennent que des fichiers natifs de WordPress)
+wp-admin/
+wp-includes/
+
+# Ignorer les fichiers de configuration sensibles
+wp-config.php
+wp-config-sample.php
+
+# Ignorer les fichiers spécifiques à l'installation
+.htaccess
+readme.html
+license.txt
+error_log
+
+# Ignorer les uploads et fichiers média (souvent volumineux et variables en environnement)
+wp-content/uploads/
+wp-content/blogs.dir/
+
+# Ignorer les plugins et thèmes non personnalisés
+wp-content/plugins/
+wp-content/themes/
+
+# Inclure vos thèmes et plugins personnalisés (décommentez ces lignes si vous les avez développés)
+# !wp-content/plugins/mon-plugin-personnalise/
+# !wp-content/themes/mon-theme-personnalise/
+
+# Ignorer les fichiers temporaires de développement et de système
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignorer les fichiers de configuration spécifiques à l'IDE ou éditeur de texte
+.idea/
+.vscode/
+nbproject/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorer les fichiers de configuration de dépendances externes et de compilation
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Ignorer les sauvegardes lourdes
+wp-content/ai1wm-backups/
+wp-content/backups-dup-lite/
